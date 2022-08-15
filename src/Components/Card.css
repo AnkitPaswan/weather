@@ -1,0 +1,60 @@
+
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #ffffff;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1))
+    }
+    
+
+.country{
+    font-size: 24px;
+    font-style: italic;
+}
+
+
+.row{
+    color: #282828;
+}
+
+.card{
+    border-radius: 25px;
+    /* background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=996&t=st=1660562516~exp=1660563116~hmac=b57e3116af79a9c132ccc4cc220218c8d3392258dcab32f4875acd0f179aa9a8'); */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMcb0nyFRQpZUvkS8tw0K0qBjpa6a4VrEhEw&usqp=CAU');
+    /* background-image: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?compress=1&resize=800x600&vertical=top'); */
+    /* background-image: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png?compress=1&resize=800x600&vertical=top'); */
+    background-repeat: center;
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+
+
+.time{
+    padding-top: 12px;
+
+} 
+
+@media (max-width: 991px) {
+    .ankit{
+        height: 100vh;
+    }
+  }
+
+
+  @media (max-width: 666px){
+    .ankit{
+        height: 100%;
+    }
+    }
+  @media (max-width: 900px){
+    .ankit{
+        height: 100%;
+    }
+    }
+  

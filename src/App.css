@@ -1,38 +1,9 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ankit{
+    /* background-image: url('https://img.freepik.com/free-vector/snowy-rock-creek-park-washington-d-c-usa-vector_53876-144254.jpg?w=360&t=st=1660562885~exp=1660563485~hmac=1e6e72c9edb84f9781b6f218a3a833e1abe45e0ea261cd0f7aff1c5fa1f58a9e'); */
+    background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp');
+    background-repeat: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-color: #C1CFEA; */
 }
