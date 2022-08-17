@@ -1,9 +1,8 @@
-.btn:focus{
+.btn:focus .glyphicon{
     border-color: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
-    /* border: none; */
- /* outline: none; */
+    
 }
 
 .form-control:focus {
@@ -11,3 +10,12 @@
     -webkit-box-shadow: none;
     box-shadow: none;
   }
+
+  h3{
+    font-style: italic;
+  }
+
+
+
+
+ 

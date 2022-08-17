@@ -1,9 +1,10 @@
 .ankit{
-    /* background-image: url('https://img.freepik.com/free-vector/snowy-rock-creek-park-washington-d-c-usa-vector_53876-144254.jpg?w=360&t=st=1660562885~exp=1660563485~hmac=1e6e72c9edb84f9781b6f218a3a833e1abe45e0ea261cd0f7aff1c5fa1f58a9e'); */
+    /* background-image: url('https://p4.wallpaperbetter.com/wallpaper/817/1010/499/sunset-4k-screensaver-wallpaper-preview.jpg'); */
     background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-weather/draw1.webp');
-    background-repeat: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    /* background-color: #C1CFEA; */
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+}
+.container{
+    margin-top:42px;
 }

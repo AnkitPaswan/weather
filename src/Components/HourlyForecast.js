@@ -1,10 +1,10 @@
 import React from 'react';
 import { iconUrlFromCode } from '../Services/WeatherService';
-const HourlyForecast = ({ det, items }) => {
+const HourlyForecast = ({title, det, items }) => {
   return (
     <div className='card mb-4 text-light'>
       <div className='card-body p-4'>
-        <h4 className='fst-italic'>Hourly Forecast</h4>
+        <h4 className='fst-italic'>{title}</h4>
         <hr />
         <div className='carousel-inner'>
           <div className=' carousel-item active'>

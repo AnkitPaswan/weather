@@ -1,0 +1,13 @@
+
+
+ @media (max-width: 500px) {
+    .footer{
+     margin-top: 0rem;
+    }
+   }
+   /* @media (max-width: 912px) {
+    .footer{
+     display: block;
+    }
+   } */
+

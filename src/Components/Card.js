@@ -24,7 +24,8 @@ const Card = ({
       <div className='card-body mb-4 p-4'>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
-            <h3 className='fst-italic '>Today's Hilight</h3>
+            <h3 className='fst-italic '>Today's Highlight</h3>
+            <hr />
             <p className='time'> {formtToLocalTime(dt, timezone)}</p>
             <hr />
             <div className='d-flex justify-content-between mb-2 pb-2'>
@@ -32,11 +33,11 @@ const Card = ({
                 <h3 className='display-2 mt-4'>
                   <strong>{`${temp.toFixed()}`}°C</strong>
                 </h3>
-                <div className='d-flex '>
+                <div className='d-flex'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
                     width='20'
-                    height='28'
+                    height='24'
                     fill='currentColor'
                     className='bi bi-geo-alt-fill pt-1'
                     viewBox='0 0 16 16'

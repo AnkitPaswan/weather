@@ -1,11 +1,11 @@
 import React from 'react';
 import { iconUrlFromCode } from '../Services/WeatherService';
 
-const DailyForecast = ({ items }) => {
+const DailyForecast = ({ title, items }) => {
   return (
     <div className='card text-light '>
       <div className='card-body p-4'>
-        <h4 className='fst-italic'>Daily Forecast</h4>
+        <h4 className='fst-italic'>{title}</h4>
         <hr />
         <div className='carousel-inner'>
           <div className=' carousel-item active'>

@@ -3,8 +3,9 @@ import HourlyForecast from './Components/HourlyForecast';
 import DailyForecast from './Components/DailyForecast';
 import getFormattedWeatherData from './Services/WeatherService';
 import React, { useEffect, useState } from 'react';
-import Searchbar from './Components/Searchbar';
 import './App.css';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
 
 function App() {
   const [query, setQuery] = useState({ q: 'Malout' });
@@ -23,26 +24,27 @@ function App() {
   }, [query, units]);
   return (
     <div>
-      <section className=' ankit'>
-        <div className='container py-5 h-100'>
-          <div className='row d-flex justify-content-center align-items-center h-100'>
-            <div className='col-md-9 col-lg-7 col-xl-6'>
-              <Searchbar
-                setQuery={setQuery}
-                units={units}
-                setUnits={setUnits}
-              />
-              {weather && (
-                <div>
-                  <Card weather={weather} />
-                  <HourlyForecast items={weather.hourly} />
-                  <DailyForecast items={weather.daily} />
-                </div>
-              )}
+      {weather && (
+        <section className=' ankit'>
+          <Header setQuery={setQuery} units={units} setUnits={setUnits} />
+          <div className='container py-5 h-100'>
+            <div className='row d-flex justify-content-center align-items-center h-100'>
+              <div className='col-md-9 col-lg-7 col-xl-6'>
+                <Card weather={weather} />
+                <HourlyForecast
+                  title={'Hourly Forecast'}
+                  items={weather.hourly}
+                />
+                <DailyForecast
+                  title={'Daily Forecast'}
+                  items={weather.daily}
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+          <Footer />
+        </section>
+      )}
     </div>
   );
 }

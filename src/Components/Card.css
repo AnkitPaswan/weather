@@ -8,7 +8,9 @@
     background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1));
     
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1))
+    /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1)) */
+    /* background: linear-gradient(to right, #1ABFFA, #1C7FF4) */
+    
     }
     
 
@@ -25,12 +27,14 @@
 .card{
     border-radius: 25px;
     /* background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=996&t=st=1660562516~exp=1660563116~hmac=b57e3116af79a9c132ccc4cc220218c8d3392258dcab32f4875acd0f179aa9a8'); */
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMcb0nyFRQpZUvkS8tw0K0qBjpa6a4VrEhEw&usqp=CAU');
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMcb0nyFRQpZUvkS8tw0K0qBjpa6a4VrEhEw&usqp=CAU'); */
     /* background-image: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722376/after_noon.png?compress=1&resize=800x600&vertical=top'); */
-    /* background-image: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png?compress=1&resize=800x600&vertical=top'); */
+    /* background-image: url('https://www.wallpaperbetter.com/en/hd-wallpaper-uqowg'); */
     background-repeat: center;
     background-repeat: repeat;
     background-size: cover;
+    
+    background: linear-gradient(to right, #1ABFFA, #1C7FF4)
     
 }
 
@@ -52,7 +56,7 @@
         height: 100%;
     }
     }
-  @media (max-width: 900px){
+  @media (max-width: 912px){
     .ankit{
         height: 100%;
     }
